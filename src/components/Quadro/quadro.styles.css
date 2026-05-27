@@ -1,0 +1,11 @@
+.quadro-container {
+  display: flex;            /* Coloca as colunas lado a lado */
+  flex-direction: row;      /* Garante a direção em linha */
+  justify-content: sed-start; /* Alinha as colunas no começo do espaço */
+  align-items: stretch;     /* Força todas as colunas a terem a mesma altura */
+  gap: 20px;                /* Cria o espaçamento perfeito entre uma coluna e outra */
+  
+  width: 100%;              /* Ocupa toda a largura disponível */
+  padding: 16px;            /* Uma folga interna para as colunas não colarem nas bordas */
+  box-sizing: border-box;
+}
