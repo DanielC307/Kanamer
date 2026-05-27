@@ -1,0 +1,39 @@
+.cadastro {
+  background-color: #1a1a1a;    /* Fundo cinza escuro para destacar do fundo preto */
+  border: 1px solid #333333;     /* Borda discreta */
+  border-radius: 8px;
+  padding: 24px;
+  width: 300px;                  /* Largura fixa estilo barra lateral */
+  display: flex;
+  flex-direction: column;        /* Empilha os elementos para baixo */
+  gap: 16px;                     /* Espaçamento perfeito entre os itens */
+  box-sizing: border-box;
+}
+
+/* O texto de instrução (o <p>) */
+.cadastro p {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* O campo de digitação */
+.input-tarefa {
+  background-color: #141414;    /* Input mais escuro que o card */
+  border: 1px solid #444444;
+  border-radius: 4px;
+  padding: 12px;
+  color: #ffffff;
+  font-size: 1rem;
+  outline: none;                 /* Remove aquela borda azul feia nativa */
+  transition: border-color 0.2s; /* Efeitinho suave ao clicar */
+}
+
+/* Quando o usuário clica no input para digitar */
+.input-tarefa:focus {
+  border-color: #ff0055;         /* Borda acende com a cor neon do seu Banner */
+}

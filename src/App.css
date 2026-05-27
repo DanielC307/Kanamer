@@ -1,7 +1,5 @@
 body {
   background-color: var(--cor-principal);
-}
-
-header {
-  color: aliceblue;
+  margin: 0;
+  font-family: sans-serif;
 }
