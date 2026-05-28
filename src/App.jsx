@@ -12,6 +12,10 @@ function App() {
 
  const aoCadastrar = (novaTarefa) => {
       setTasks([...tasks, novaTarefa])
+      novaTarefa.preventDefault()
+      console.log(novaTarefa);
+      
+      
   }
 
   return (
@@ -19,7 +23,7 @@ function App() {
       <Titulo>
         Kanamer
       </Titulo>
-        <AddTask onSubmit = {aoCadastrar}/>
+        <AddTask aoSubmeter = {aoCadastrar}/>
     </>
   )
 }
